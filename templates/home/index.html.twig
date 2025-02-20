@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('styles/home.css') }}">
+{% endblock %}
+{% block javascripts %}
+    <script src="{{ asset('scripts/home.js') }}"></script>
+{% endblock %}
+
+
+{% block body %}
+    <h1 class="title">Vous voulez lancer votre entreprise de transport mais vous n'êtes pas 
+        <span class="animated-text">
+            {% for letter in "capacitaire ?"|split('') %}
+                <span>{{ letter }}</span>
+            {% endfor %}
+        </span>
+        <br>Profitez de ma capacité de transport pour démarrer dès aujourd'hui !
+    </h1>
+{% endblock %}
