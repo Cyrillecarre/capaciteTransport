@@ -61,3 +61,66 @@ html, body {
     display: inline-block;
     padding: 0 4px;
 }
+
+.pourquoi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 8rem;
+    font-size: 1.5rem;
+    text-align: center !important;
+    list-style: none;
+    
+}
+
+.pourquoi li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    height: 2rem;
+}
+
+.pourquoi svg {
+    margin-right: 1rem;
+}
+
+.transition {
+    display: flex;
+    background-image: url('../images/camionPluie.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+}
+
+.titleTarif {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 8rem;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.tarifs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    text-align: center;
+}
+
+.tarif {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 15rem;
+}
